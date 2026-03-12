@@ -15,7 +15,7 @@ contactTab.addEventListener('click', function() {
 })
 
 // 1. Select your contact tab element
-const contactTab = document.getElementById('contactTab');
+const contactTab = document.getElementById('contactbttn');
 
 // 2. Define your WhatsApp details
 const phoneNumber = "8434901026"; // International format, no '+' or spaces
@@ -29,3 +29,4 @@ contactTab.addEventListener('click', function() {
     window.open(whatsappUrl, '_blank');
 
 })
+
