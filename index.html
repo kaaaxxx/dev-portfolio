@@ -20,6 +20,25 @@
       --code-bg: #0d0d14;
     }
 
+    .logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  height: 40px; /* Adjust height to fit your navbar preference */
+  width: auto;
+  display: block;
+  /* If the image has too much padding, you can use object-fit */
+  object-fit: contain;
+}
+
+/* Optional: Add a hover effect to match your theme */
+.nav-logo-img:hover {
+  filter: drop-shadow(0 0 8px var(--accent-dim));
+  transition: filter 0.3s ease;
+}
+
     * {
       margin: 0;
       padding: 0;
